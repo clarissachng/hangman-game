@@ -1,0 +1,12 @@
+The program should play a game of Hangman with the user. The program should:
+1. First choose a secret word at random out of a list of words.
+2. The program should then display a dash for each letter of the secret word.
+3. The program should display the maximum number of incorrect guesses allowed.
+4. The user should guess letters, one at a time, to try to guess the secret word.
+5. If the user guesses a letter in the secret word that letter should replace the dash in the correct
+position.
+6. If the user guesses a letter that does not appear in the secret word the program should reduce
+the number of incorrect guesses available by one.
+7. If the user correctly guesses all the letters in the word, the user wins the game.
+8. Otherwise when the user runs out of incorrect guesses the program wins.
+9. After each game the user should have the option to play again.
